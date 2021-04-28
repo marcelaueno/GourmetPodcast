@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    background: url(../images/gourmetBanner.jpg) center center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+header a img{
+    width: 250px;
+
+}
+nav a img{
+    width: 50px;
+}
+nav{
+    width: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+   justify-content: space-around;
+}
+ul li{
+    flex-direction: row-reverse;
+}
+li image{
+    display: flex;
+    width: 20px;
+}
+/*a{
+    text-decoration: none;
+}*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: #FFCB00;
+}
+.banner{
+    background: url(../images/gourmetBanner.jpg) center center fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.banner div{
+    display: flex;
+}
+audio{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+section{
+    display: flex;
+}
+section div{
+    background: coral;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
